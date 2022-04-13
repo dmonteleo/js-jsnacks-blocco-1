@@ -40,11 +40,6 @@ body {
   color: yellowgreen;
 }
 
-.dm-btn:focus {
-  background-color: rebeccapurple;
-  color: yellowgreen;
-}
-
 .btn-container {
   margin-bottom: 20px;
 }
@@ -58,12 +53,19 @@ body {
 }
 
 .text-container {
-  /* background-color: red; */
   height: 200px;
+}
+
+#output {
+  margin-top: 10px;
 }
 
 .btn:hover {
   background-color: rebeccapurple;
   border-color: rebeccapurple;
   color: yellowgreen;
+}
+
+h1 {
+  display: none;
 }

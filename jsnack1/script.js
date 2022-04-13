@@ -38,6 +38,22 @@ function myFunction(x) {
   x.style.color = "yellowgreen";
 }
 
+let titleFirst = document.querySelector('h1');
+let titleSecond = document.querySelector('#output');
+
+function yourFunction(x) {
+  // x.style.background = "yellowgreen";
+  // x.style.color = "rebeccapurple";
+  x.style.display = "block";
+} 
+
+btnMaggiore.addEventListener('click', function() {
+  yourFunction(titleFirst);
+  yourFunction(titleSecond);
+});
+
+
+
 
 
 
