@@ -33,6 +33,10 @@ btnMaggiore.addEventListener('click', function(){
   output.innerHTML += ` ${maggiore}`;
 });
 
+function myFunction(x) {
+  x.style.background = "rebeccapurple";
+  x.style.color = "yellowgreen";
+}
 
 
 
