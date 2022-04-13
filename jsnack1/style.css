@@ -1,0 +1,69 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rebeccapurple;
+  color: yellowgreen;
+}
+
+.btn {
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  color: rebeccapurple;
+  margin-right: 10px;
+}
+
+.dm-btn {
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  color: rebeccapurple;
+  margin-right: 10px;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 1.5;
+	/* color: #212529; */
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	/* -webkit-user-select: none; */
+	/* -moz-user-select: none; */
+	/* user-select: none; */
+	/* background-color: transparent; */
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.dm-btn:hover {
+  background-color: rebeccapurple;
+  color: yellowgreen;
+}
+
+.dm-btn:focus {
+  background-color: rebeccapurple;
+  color: yellowgreen;
+}
+
+.btn-container {
+  margin-bottom: 20px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  /* background-color: red; */
+  height: 200px;
+}
+
+.btn:hover {
+  background-color: rebeccapurple;
+  border-color: rebeccapurple;
+  color: yellowgreen;
+}

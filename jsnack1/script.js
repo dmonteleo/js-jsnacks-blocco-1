@@ -6,18 +6,19 @@
 let firstNumber;
 let secondNumber;
 let maggiore;
+const output = document.getElementById('output');
 
 const btnFirstNumber = document.querySelector('#btnFirstNumber');
 const btnSecondNumber = document.querySelector('#btnSecondNumber');
 const btnMaggiore = document.querySelector('#btnMaggiore');
 
 btnFirstNumber.addEventListener('click', function(){
-  firstNumber = prompt('Inserisci il primo numero');
+  firstNumber = parseInt(prompt('Inserisci il primo numero'));
   console.log(firstNumber);
 });
 
 btnSecondNumber.addEventListener('click', function(){
-  secondNumber = prompt('Inserisci il secondo numero');
+  secondNumber = parseInt(prompt('Inserisci il secondo numero'));
   console.log(secondNumber);
 });
 
@@ -29,6 +30,7 @@ btnMaggiore.addEventListener('click', function(){
     maggiore = secondNumber;
   }
   console.log(maggiore);
+  output.innerHTML += ` ${maggiore}`;
 });
 
 
